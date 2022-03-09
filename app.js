@@ -1,4 +1,4 @@
-const numbers=[4,8,98,56,2,3]
+const numbers=[4,8,98]
 const student={
     name:'Salam Khan',
     Age:55,
@@ -22,3 +22,7 @@ const mutipleWork=(x,y,z)=>{
     return mutipication
 }
 // 3 spread operator
+const newNumbers=[...numbers];
+newNumbers.push(55)
+console.log(newNumbers)
+console.log(numbers)
